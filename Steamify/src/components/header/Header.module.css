@@ -1,0 +1,134 @@
+.header{
+    width:100%;
+    height:70px;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 2px;
+    border-bottom:1px  solid rgb(76, 73, 73);
+}
+
+.navigation{
+    width:fit-content;
+    height:70px;
+    /* background-color: blueviolet; */
+    display: flex;
+    column-gap:0px;
+}
+
+
+.logo {
+
+    padding-left: 30px;
+    width: 120px; /* or any size you want */
+    height: 63px; /* maintains aspect ratio */
+  }
+
+.premium{
+
+    width:fit-content;
+    height:20px;
+    border:1px solid gold;
+    padding:1px 5px;
+    border-radius: 20px;
+    font-size: 10px;
+    color: gold;
+    
+}
+.logomain{
+    /* background-color: grey; */
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+.navlinks{
+    width:fit-content;
+    display: flex;
+    list-style-type: none;
+    column-gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: bold;
+
+
+
+}
+.navlink{
+    padding: 18px 0px;
+}
+  .navlink:first-child{
+    border-bottom: 3px solid rgb(43, 43, 159);
+  }
+
+  /* search css */
+
+  .search{
+    width:fit-content;
+    height:60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+
+}
+
+.searchbox{
+
+    width:fit-content;
+    height:30px;
+    background-color:#1e1f20;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0px 5px;
+}
+
+.headerIcon
+{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.searchInput{
+     
+    height: 25px;
+    width: 150px;
+    background-color: #1e1f20;
+    border: none;
+    outline:none;
+    color: white;
+    
+
+}
+
+.user{
+    height: 30px;
+    fill: white;
+    margin-right: 30px;
+
+}
+
+.searchResults{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0,0.5);
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+
+
